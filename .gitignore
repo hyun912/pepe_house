@@ -1,9 +1,44 @@
+# 뷰 관련
 /node_modules
 /public/hot
+/public/css
+/public/js
+/public/profile
+/public/img
 /public/storage
-/storage/*.key
+
+# 라라벨 관련
 /vendor
+/stubs
 .env
+
+# vscode 설정 파일
+/.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.vsix
+.history
+.ionide
+
+# 윈도우 관련
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ETC
+/storage/*.key
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
@@ -12,4 +47,3 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /.idea
-/.vscode
